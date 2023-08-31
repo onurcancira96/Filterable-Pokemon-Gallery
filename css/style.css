@@ -1,0 +1,186 @@
+body {
+    background: #0a0c10;
+}
+
+.baslik {
+    background: #f9fbe7;
+}
+
+.buttonFire {
+    padding: 10px 40px;
+    border-radius: 10px;
+    border: 0;
+    background-color: #DF2E38;
+    letter-spacing: 1.5px;
+    font-size: 15px;
+    transition: all .3s ease;
+    box-shadow: #B73E3E 0px 10px 0px 0px;
+    color: hsl(0, 0%, 100%);
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.buttonFire:hover {
+    box-shadow: #B73E3E 0px 7px 0px 0px;
+}
+
+.buttonFire:active {
+    background-color: #DF2E38;
+    box-shadow: #B73E3E 0px 0px 0px 0px;
+    transform: translateY(5px);
+    transition: 200ms;
+}
+
+.buttonWater {
+    padding: 10px 40px;
+    border-radius: 10px;
+    border: 0;
+    background-color: rgb(56, 175, 255);
+    letter-spacing: 1.5px;
+    font-size: 15px;
+    transition: all .3s ease;
+    box-shadow: rgb(46, 129, 201) 0px 10px 0px 0px;
+    color: hsl(0, 0%, 100%);
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.buttonWater:hover {
+    box-shadow: rgb(46, 129, 201) 0px 7px 0px 0px;
+}
+
+.buttonWater:active {
+    background-color: rgb(56, 175, 255);
+    box-shadow: rgb(46, 129, 201) 0px 0px 0px 0px;
+    transform: translateY(5px);
+    transition: 200ms;
+}
+
+.buttonGrass {
+    padding: 10px 40px;
+    border-radius: 10px;
+    border: 0;
+    background-color: #6BCB77;
+    letter-spacing: 1.5px;
+    font-size: 15px;
+    transition: all .3s ease;
+    box-shadow: #4E944F 0px 10px 0px 0px;
+    color: hsl(0, 0%, 100%);
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.buttonGrass:hover {
+    box-shadow: #4E944F 0px 7px 0px 0px;
+}
+
+.buttonGrass:active {
+    background-color: #6BCB77;
+    box-shadow: #4E944F 0px 0px 0px 0px;
+    transform: translateY(5px);
+    transition: 200ms;
+}
+
+.buttonAll {
+    padding: 10px 40px;
+    border-radius: 10px;
+    border: 0;
+    background-color: rgb(250, 255, 250);
+    letter-spacing: 1.5px;
+    font-size: 15px;
+    transition: all .3s ease;
+    box-shadow: rgb(199, 202, 199) 0px 10px 0px 0px;
+    color: hsl(0, 0%, 0%);
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.buttonAll:hover {
+    box-shadow: rgb(199, 202, 199) 0px 7px 0px 0px;
+}
+
+.buttonAll:active {
+    background-color: rgb(250, 255, 250);
+    box-shadow: rgb(199, 202, 199) 0px 0px 0px 0px;
+    transform: translateY(5px);
+    transition: 200ms;
+}
+
+.body {
+    margin-top: 20px;
+    padding: 2%;
+}
+
+.cardAll:hover {
+    transition: box-shadow 0.3s ease-out;
+    transition: transform 0.3s ease-out;
+    box-shadow: 0px 8px 17px 2px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(0, 0, 0, 0.12), 0px 5px 5px -3px rgba(0, 0, 0, 0.2);
+    transform: translateY(-10px);
+
+}
+
+.cardAll:not(:hover) {
+    transition: box-shadow 0.3s ease-out;
+    box-shadow: none;
+}
+
+.cardImage {
+    background: #f9fbe7;
+    width: 80%;
+    height: 65%;
+    object-fit: contain;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    border-radius: 2dvb;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.cardImageEffect {
+    animation: hareket 1s linear infinite;
+}
+
+@keyframes hareket {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-6%);
+    }
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 3%;
+    padding: 30px;
+}
+
+.list .cardAll {
+    min-width: 265px;
+    color: #f0f3e8;
+    padding: 1px;
+    border-radius: 50px;
+    letter-spacing: 1px;
+    background: #272829;
+    border-radius: 30px;
+    overflow: hidden;
+    gap: 25px;
+    margin-bottom: 4%;
+
+}
+
+.listBig {
+    background: #272829;
+}
+
+.cardCerceve {
+    background: #0a0c10;
+}
